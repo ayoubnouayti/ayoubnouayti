@@ -109,15 +109,20 @@ h1 { max-width: 700px; margin-bottom: 22px; font-size: clamp(3.25rem, 6.7vw, 5.7
 .visual-orbit { position: absolute; width: 300px; height: 300px; border: 1px solid rgba(194, 242, 107, .28); border-radius: 50%; }
 .orbit-one { transform: rotate(-28deg) scaleY(.5); }
 .orbit-two { transform: rotate(48deg) scaleY(.52); border-color: rgba(240, 173, 118, .33); }
-.visual-portrait {
+.visual-core {
   z-index: 1;
-  width: clamp(180px, 22vw, 224px);
-  aspect-ratio: 1;
-  border: 2px solid rgba(194, 242, 107, .55);
+  display: grid;
+  width: 144px;
+  height: 144px;
+  place-items: center;
+  border: 1px solid rgba(194, 242, 107, .55);
   border-radius: 50%;
-  object-fit: cover;
-  object-position: center;
+  background: radial-gradient(circle at 35% 30%, #2a3c43, #14212a 70%);
   box-shadow: 0 0 80px rgba(194, 242, 107, .1), inset 0 0 24px rgba(194, 242, 107, .07);
+  color: var(--accent);
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -.08em;
 }
 .orbit-node { position: absolute; z-index: 2; padding: 7px 10px; border: 1px solid var(--line); border-radius: 3px; background: var(--ink-soft); color: #d4dfdc; font-size: .62rem; font-weight: 700; letter-spacing: .11em; }
 .node-top { top: 12%; left: 50%; transform: translateX(-50%); }
