@@ -4,7 +4,7 @@
 
 ## Portfolio
 
-Retrouvez mon CV web, mes compétences et une sélection de projets ici :
+Mon CV web responsive présente mon profil, mon parcours, mes compétences et une sélection de projets :
 
 **[Ouvrir mon portfolio](https://ayoubnouayti.github.io/ayoubnouayti/)**
 
